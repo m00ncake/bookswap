@@ -1,10 +1,18 @@
 # bookswap
 
-Font Family is called [Montserrat](https://fonts.google.com/specimen/Montserrat)
+### CSS
+
+Add this to top of index.html
+
 ```
 <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 ```
-### CSS
+
+Font Family is called [Montserrat](https://fonts.google.com/specimen/Montserrat)
+
+
+Example on how to use it:
+
 ```
 .text {
   font-family: 'Montserrat', sans-serif;`
