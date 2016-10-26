@@ -5,53 +5,53 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="asset/main.css"
+    <link rel="stylesheet" href="./assets/stylesheets/main.css">
     <link rel="https://fonts.googleapis.com/css?family=Lato:100,300,400">
   </head>
   <body>
     <!--Header-->
     <header class="container">
-      <div class="row">
-        <h4 class="title">
+      <div class="row page-header">
+        <h4 class="col-sm-3">
           <a href="index.html">bookswap</a>
         </h4>
-        <form>
+        <p class="col-sm-5">
+        <form class="col-sm-2">
           <fieldset>
-            <label>
-              zip code
-              <input type="number" name="zip code" placeholder="Search your zip code">
-            </label>
+            <input class="btn btn-dafault" type="number" name="zip code" placeholder="Search your zip code">
           </fieldset>
         </form>
-        <button onclick="">Log in/Register</button>
+        <button class="col-sm-2 btn btn-link">Log in/Register</button>
       </div>
-      <div class="row">
-        <image>
-        <div class="teaser">
-          <p>swap<br>children's books<br>with your neighbors</p>
-          <button onclick="">sign up now</button>
+      <div class="row row2">
+        <image src="assets/images/kids.png">
+        <div class="jumbotron">
+          <h1>swap</h1>
+          <h2>children's books</h2>
+          <h3>with your neighbors</h3>
+          <button type="button" class="btn btn-primary">sign up now</button>
         </div>
       </div>
     </header>
     <!--Navigation-->
-    <section class="row">
-      <div class="col-sm-3">
-        <h5>Local Swap</h5>
-        <p>Blah Blah Blah, books are awesome</p>
-      </div>
-      <div class="col-sm-3">
-        <h5>Save Money</h5>
-        <p>Blah Blah Blah, saving money is awesome</p>
-      </div>
-      <div class="col-sm-3">
-        <h5>Good Cause</h5>
-        <p>Blah Blah Blah, helpling people rocks</p>
-      </div>
-      <div class="col-sm-3">
-        <h5>Safe Exchange</h5>
-        <p>Blah Blah Blah, safe trading is fun</p>
+    <section class="container">
+      <div class="row row3"
+        <div class="col-sm-3">
+          <h5>Local Swap</h5>
+          <p>Blah Blah Blah, books are awesome</p>
+        </div><!--
+        --><div class="col-sm-3">
+          <h5>Save Money</h5>
+          <p>Blah Blah Blah, saving money is awesome</p>
+        </div><!--
+        --><div class="col-sm-3">
+          <h5>Good Cause</h5>
+          <p>Blah Blah Blah, helpling people rocks</p>
+        </div><!--
+        --><div class="col-sm-3">
+          <h5>Safe Exchange</h5>
+          <p>Blah Blah Blah, safe trading is fun</p>
+        </div>
       </div>
     </section>
     <!--Swapables-->
@@ -139,4 +139,6 @@
         <button onclick=""></button>
       </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>

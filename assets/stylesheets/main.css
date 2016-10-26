@@ -51,6 +51,14 @@ table {
 	border-spacing: 0;
 }
 
+.jumbotron {
+  background-image: url('../images/slider-bg.gif');
+}
+
+.row {
+  background: green;
+}
+
 /*
   ===========================================================================
   Custom Style
