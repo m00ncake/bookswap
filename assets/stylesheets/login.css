@@ -9,3 +9,35 @@ body {
 .container {
   width: 1170px;
 }
+
+.header .search .input-group-addon {
+  border-radius: 20px 0px 0px 20px;
+  background: white;
+  box-shadow: none;
+}
+
+.search input {
+  border-radius: 20px;
+  border-left: 0px;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header .search input:focus {
+  border: 1px solid rgba(0,0,0,.15);
+  border-left: 0px;
+}
+
+.header .search .input-group {
+  width: 240px;
+}
+
+.header .navigation  .item {
+  margin-left: 30px;
+}
+
+.navigation .user-icon {
+  margin-top: 5px;
+}
