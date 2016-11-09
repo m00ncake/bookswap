@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Bookswap</title>
+    <title>Bookswopp</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -11,27 +11,54 @@
     <link rel="https://fonts.googleapis.com/css?family=Lato:100,300,400">
   </head>
   <body>
-    <!--Header-->
-    <header class="container">
+  <!--Header-->
+  <div class="navbar">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index.html">bookswopp</a>
+      </div>
+      <form class="form-inline nav navbar-nav navbar-right">
+        <div class="form-group">
+          <label class="sr-only zip-search" for="focusedInput">Zip Code</label>
+          <div class="input-group">
+            <span class="input-group-addon">
+              <span class="glyphicon glyphicon-search zip-search"></span>
+            </span>
+            <input type="text" name="zip code" class="form-control zip-search" placeholder="Search for your zipcode">
+          </div>
+        </div>
+        <div class="form-group">
+          <a href="#"><span class="glyphicon glyphicon-user"></span> Login</a>
+          <a href="#"> / Register</a>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Old Code -
+    <header class="container-fluid">
       <div class="row page-header">
         <h4 class="col-sm-3">
-          <a href="index.html">bookswap</a>
+          <a href="index.html">bookswopp</a>
         </h4>
         <p class="col-sm-4">
-        <form class="col-sm-3">
-          <fieldset class="zip-search">
-            <span class="glyphicon glyphicon-search"></span>
-            <input class="btn btn-dafault" type="number" name="zip code" placeholder="Search your zip code">
-          </fieldset>
-        </form>
-        <button class="col-sm-2 btn btn-link">Log in/Register</button>
-      </div>
-    </header>
-    <!--Slider-->
+        <div class="col-sm-offset-4 col-sm-3">
+          <div class="input-group">
+            <span class="input-group-addon zip-search">
+              <span class="glyphicon glyphicon-search"></span>
+            </span>
+            <input type="text" name="zip code" class="form-control zip-search" placeholder="Search your zip code">
+          </div>
+        <button class="col-sm-2 btn btn-link">
+          <span class="glyphicon glyphicon-user"></span>
+          <a href="#">Log in / </a>
+          <a href="#">Register</a>
+        </button>
+  -->
+  <!--Slider-->
       <div class="row jumbotron">
         <image class="kids" src="assets/images/kids.png" alt="picture of kids">
         <div class="slider-message">
-          <h1>swap</h1>
+          <h1>swopp</h1>
           <h2>children's books</h2>
           <h3>with your neighbors</h3>
           <button type="button" class="btn btn-primary">sign up now</button>
@@ -41,7 +68,7 @@
     <section class="container">
       <div class="row row3">
         <div class="col-sm-3">
-          <h5>Local Swap</h5>
+          <h5>Local Swopp</h5>
           <p>Blah Blah Blah, books are awesome</p>
         </div>
         <div class="col-sm-3">
