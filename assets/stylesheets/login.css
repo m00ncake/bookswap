@@ -8,12 +8,7 @@ body {
 
 .container {
   width: 1170px;
-}
-
-.header .search .input-group-addon {
-  border-radius: 20px 0px 0px 20px;
-  background: white;
-  box-shadow: none;
+  padding: 0;
 }
 
 .search input {
@@ -25,19 +20,42 @@ body {
   padding: 20px 0;
 }
 
-.header .search input:focus {
-  border: 1px solid rgba(0,0,0,.15);
-  border-left: 0px;
-}
-
-.header .search .input-group {
-  width: 240px;
+.navigation .user-icon {
+  margin-top: 5px;
 }
 
 .header .navigation  .item {
   margin-left: 30px;
 }
 
-.navigation .user-icon {
-  margin-top: 5px;
+
+
+
+.search {
+  position: relative;
+  color: #aaa;
+  font-size: 20px;
+}
+
+.search input {
+  width: 280px;
+  height: 50px;
+  background: #fcfcfc;
+  border: 1px solid #aaa;
+  border-radius: 30px;
+}
+
+.search input:focus {
+  border-radius: 30px;
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+
+.search input { text-indent: 50px;}
+.search .fa-search {
+  position: absolute;
+  top: 15px;
+  left: 20px;
 }
