@@ -4,56 +4,37 @@
     <title>Bookswopp</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="assets/stylesheets/main.css">
     <link rel="https://fonts.googleapis.com/css?family=Lato:100,300,400">
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/stylesheets/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/stylesheets/main.css" rel="stylesheet">
+    <link href="./assets/stylesheets/font-awesome.css" rel="stylesheet">
   </head>
   <body>
   <!--Header-->
-  <div class="navbar">
     <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="index.html">bookswopp</a>
+      <div class="header row" id="header">
+        <div class="col-sm-3 logo">
+          <img width="200px" height="28px" src="./assets/images/logo.png">
+        </div>
+        <div class="col-sm-9 navigation">
+          <img class="pull-right item user-icon" src="./assets/images/user-icon.png">
+          <img class="pull-right item" src="./assets/images/message-icon.png">
+          <div class="pull-right item search">
+            <div class="search-zipcode">
+              <span class="fa fa-search"></span>
+              <input placeholder="search your zipcode"></input>
+            </div>
+          </div>
+        </div>
       </div>
-      <form class="form-inline nav navbar-nav navbar-right">
-        <div class="form-group">
-          <label class="sr-only zip-search" for="focusedInput">Zip Code</label>
-          <div class="input-group">
-            <span class="input-group-addon">
-              <span class="glyphicon glyphicon-search zip-search"></span>
-            </span>
-            <input type="text" name="zip code" class="form-control zip-search" placeholder="Search for your zipcode">
-          </div>
-        </div>
-        <div class="form-group">
-          <a href="#"><span class="glyphicon glyphicon-user"></span> Login</a>
-          <a href="#"> / Register</a>
-        </div>
-      </form>
     </div>
-  </div>
-  <!-- Old Code -
-    <header class="container-fluid">
-      <div class="row page-header">
-        <h4 class="col-sm-3">
-          <a href="index.html">bookswopp</a>
-        </h4>
-        <p class="col-sm-4">
-        <div class="col-sm-offset-4 col-sm-3">
-          <div class="input-group">
-            <span class="input-group-addon zip-search">
-              <span class="glyphicon glyphicon-search"></span>
-            </span>
-            <input type="text" name="zip code" class="form-control zip-search" placeholder="Search your zip code">
-          </div>
-        <button class="col-sm-2 btn btn-link">
-          <span class="glyphicon glyphicon-user"></span>
-          <a href="#">Log in / </a>
-          <a href="#">Register</a>
-        </button>
-  -->
+
   <!--Slider-->
       <div class="row jumbotron">
         <image class="kids" src="assets/images/kids.png" alt="picture of kids">
@@ -86,6 +67,7 @@
       </div>
     </section>
     <!--Swapables-->
+    <div class="container">
     <h4>current swapables</h4>
     <section class="row">
       <div class="col-sm-2">
@@ -125,7 +107,9 @@
         <button onclick=""></button>
       </div>
     </section>
+    </div>
     <!--Most Popular-->
+    <div class="container">
     <h4>most popular</h4>
     <section class="row">
       <div class="col-sm-2">
@@ -171,6 +155,7 @@
         <button onclick=""></button>
       </div>
     </section>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   </body>

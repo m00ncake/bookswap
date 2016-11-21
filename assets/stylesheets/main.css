@@ -1,19 +1,67 @@
 
+.container {
+	width: 1170px;
+	padding: 0;
+}
+
 /*
   ===========================================================================
   Header Styles
   ===========================================================================
 */
 
-.zip-search {
-	border-radius: 20px 20px 20px 20px;
-	background-color: white;
+.header {
+	padding: 20px 0;
 }
 
-.glyphicon-search {
-	color: grey;
+.header .navigation .item {
+	margin-left: 25px;
 }
 
+.search input {
+	border-radius: 20px;
+	border-left: 0;
+	width: 280px;
+	height: 50px;
+	background: #fcfcfc;
+	border: 1px solid #aaa;
+	border-radius: 30px;
+}
+
+.navigation .user-icon {
+	margin-top: 4px;
+}
+
+.search {
+	position: relative;
+	color: #aaa;
+	font-size: 20px;
+}
+
+.navigation .search .search-zipcode {
+	margin-top: -10px;
+}
+
+.search input {
+	text-indent: 50px;
+}
+
+.search input:focus {
+	border-radius: 30px;
+	border-color: #66afe9;
+	outline: 0;
+
+}
+
+.search-zipcode {
+	position: relative;
+}
+
+.search-zipcode .fa-search {
+	position: absolute;
+  top: 15px;
+	left: 20px;
+}
 /*
   ==========================================================================
 	Slider Styles
