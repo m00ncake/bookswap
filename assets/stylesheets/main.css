@@ -76,20 +76,70 @@
 
 .kids {
 	position: absolute;
+	top: 5px;
 	left: 100px;
+	height: 375px;
 }
 
 .slider-message {
 	position: absolute;
-	right: 300px;
+	right: 170px;
+	top: 90px;
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'm'
+}
+h1, h2, h3, button {
+	font-family: 'montserrat', sans-serif;
+	margin: 0;
 }
 
+h1 {
+	font-weight: bold;
+	margin-bottom: 9px;
+}
+
+h2 {
+	font-size: 43px;
+	margin-bottom: 8px;
+}
+
+h3 {
+	font-weight: lighter;
+	font-size: 27px;
+	margin-bottom: 13px;
+	word-spacing: -3px;
+}
+
+.slider-message button {
+	font-size: 18px;
+	text-transform: capitalize;
+	letter-spacing: 1.5px;
+	border-radius: 20px;
+	padding: 8px 40px 8px 40px;
+}
 /*
   ==========================================================================
 	Features
   ==========================================================================
 */
 
+.features {
+	position: relative;
+	height: 100px;
+}
+.features-icon {
+	display: inline-block;
+	position: absolute;
+	top: 15px;
+}
+
+.features-title {
+	display: inline-block;
+	position: absolute;
+	text-indent: 55px;
+	font-size: 12px;
+}
 
 
 /*
