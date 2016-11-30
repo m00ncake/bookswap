@@ -8,6 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="https://fonts.googleapis.com/css?family=Lato:100,300,400">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="./assets/stylesheets/bootstrap.min.css" rel="stylesheet">
 
@@ -23,8 +24,8 @@
           <img width="200px" height="28px" src="./assets/images/logo.png">
         </div>
         <div class="col-sm-9 navigation">
-          <img class="pull-right item user-icon" src="./assets/images/user-icon.png">
-          <img class="pull-right item" src="./assets/images/message-icon.png">
+          <a class="pull-right item user-icon" href="#"><img src="./assets/images/user-icon.png"></a>
+          <a class="pull-right item" href="#"><img src="./assets/images/message-icon.png"></a>
           <div class="pull-right item search">
             <div class="search-zipcode">
               <span class="fa fa-search"></span>
@@ -36,7 +37,7 @@
     </div>
 
   <!--Slider-->
-    <div class="container-fluid">
+    <div class="container">
       <div class="row jumbotron">
         <image class="kids" src="./assets/images/kids.png" alt="picture of kids">
         <div class="slider-message">
@@ -82,45 +83,50 @@
     </div>
     <!--Swapables-->
     <div class="container">
-    <h4>current swapables</h4>
-    <section class="row">
-      <div class="col-sm-2">
-        <image src="">
-        <h6>The Wonderful Things You Will Be</h6>
-        <p>Emily Winfield</p>
-        <button onclick=""></button>
+      <div class="row swapables-header">
+        <h4 class="pull-left">current swapables</h4>
+        <a class="pull-right text-primary" href="#"><span>view all</span></a>
       </div>
-      <div class="col-sm-2">
-        <image src="">
-        <h6>The Green Tree</h6>
-        <p>Shelly Silverton</p>
-        <button onclick=""></button>
+      <div class="swapables">
+        <section class="row">
+          <div class="col-sm-2 swapable-item">
+            <image src="./assets/images/book-1.png">
+            <h6>The Wonderful Things You Will Be</h6>
+            <p>Emily Winfield Martin</p>
+            <button onclick="">swopp</button>
+          </div>
+          <div class="col-sm-2 swapable-item">
+            <image src="./assets/images/book-2.png">
+            <h6>The Green Tree</h6>
+            <p>Shelly Silverton</p>
+            <button onclick="">swopp</button>
+          </div>
+          <div class="col-sm-2 swapable-item">
+            <image src="./assets/images/book-3.png">
+            <h6>Dragons Love Tacos</h6>
+            <p>Adam Rubin</p>
+            <button onclick="">swopp</button>
+          </div>
+          <div class="col-sm-2 swapable-item">
+            <image src="./assets/images/book-4.png">
+            <h6>If Animals Kissed Good Night</h6>
+            <p>Kate Bloomfield</p>
+            <button onclick="">swopp</button>
+          </div>
+          <div class="col-sm-2 swapable-item">
+            <image src="./assets/images/book-5.png">
+            <h6>The Monsters At the End of this Book</h6>
+            <p>Grover</p>
+            <button onclick="">swopp</button>
+          </div>
+          <div class="col-sm-2 swapable-item">
+            <image src="./assets/images/book-6.png">
+            <h6>The Rainbow Fish</h6>
+            <p>Marcus Penter</p>
+            <a href="#"><button onclick="">swopp</button></a>
+          </div>
+        </section>
       </div>
-      <div class="col-sm-2">
-        <image src="">
-        <h6>Dragons Love Tacos</h6>
-        <p>Adam Rubin</p>
-        <button onclick=""></button>
-      </div>
-      <div class="col-sm-2">
-        <image src="">
-        <h6>Animals Kisses Good Night</h6>
-        <p>Kate Bloomfield</p>
-        <button onclick=""></button>
-      </div>
-      <div class="col-sm-2">
-        <image src="">
-        <h6>The Monsters At the End of this Book</h6>
-        <p>Grover</p>
-        <button onclick=""></button>
-      </div>
-      <div class="col-sm-2">
-        <image src="">
-        <h6>The Rainbow Fish</h6>
-        <p>Marcus Penter</p>
-        <button onclick=""></button>
-      </div>
-    </section>
     </div>
     <!--Most Popular-->
     <div class="container">

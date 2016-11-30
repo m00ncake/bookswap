@@ -2,6 +2,7 @@
 .container {
 	width: 1170px;
 	padding: 0;
+	font-family: 'montserrat', sans-serif;
 }
 
 /*
@@ -26,6 +27,13 @@
 	background: #fcfcfc;
 	border: 1px solid #aaa;
 	border-radius: 30px;
+	text-indent: 50px;
+}
+
+.search input:focus {
+	border-radius: 30px;
+	border-color: #66afe9;
+	outline: 0;
 }
 
 .navigation .user-icon {
@@ -40,17 +48,6 @@
 
 .navigation .search .search-zipcode {
 	margin-top: -10px;
-}
-
-.search input {
-	text-indent: 50px;
-}
-
-.search input:focus {
-	border-radius: 30px;
-	border-color: #66afe9;
-	outline: 0;
-
 }
 
 .search-zipcode {
@@ -70,25 +67,25 @@
 
 .jumbotron {
 	position: relative;
-	height: 380px;
+	height: 410px;
 	background-image: url("../images/slider-bg.gif");
 }
 
 .kids {
 	position: absolute;
 	top: 5px;
-	left: 100px;
-	height: 375px;
+	left: 50px;
+	height: 405px;
 }
 
 .slider-message {
 	position: absolute;
-	right: 170px;
+	right: 100px;
 	top: 90px;
 	text-align: center;
 	text-transform: uppercase;
-	font-family: 'm'
 }
+
 h1, h2, h3, button {
 	font-family: 'montserrat', sans-serif;
 	margin: 0;
@@ -118,6 +115,11 @@ h3 {
 	border-radius: 20px;
 	padding: 8px 40px 8px 40px;
 }
+
+.slider-message button:focus {
+	border-radius: 30px;
+}
+
 /*
   ==========================================================================
 	Features
@@ -126,10 +128,12 @@ h3 {
 
 .features {
 	width: 1080px;
+	margin: 20px;
 }
 
 .features-item {
 	position: relative;
+	border: 1px grey;
 }
 
 .features-icon {
@@ -151,3 +155,45 @@ h3 {
 	Swapables
 	==========================================================================
 */
+
+.swapables-header {
+	margin: 10px 0 20px 0;
+}
+
+.swapables-header h4 {
+	font-size: 20px;
+	text-transform: capitalize;
+}
+
+.swapables-header span {
+  font-size: 12px;
+}
+
+.swapables {
+	margin-top: 20px;
+}
+
+.swapables h6 {
+	margin: 10px 0 0 0;
+	padding-bottom: 0;
+	height:35px;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.swapable-item p {
+	font-size: 11px;
+	font-weight: lighter;
+	color: grey;
+	padding-top: 0;
+	margin: 0 0 10px 0;
+}
+
+.swapable-item button {
+  border-radius: 8px;
+  border-color: #1b8bcc;
+	color: #1b8bcc;
+	padding: 2px 25px 2px 25px;
+	background-color: white;
+	margin: 0 0 30px 0;
+}
